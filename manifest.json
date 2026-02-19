@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Removeify",
+  "version": "1.0",
+
+  "description": "Aremoves the",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.giancolianswers.com/giancoli-physics-7th-edition-solutions/*"],
+      "js": ["removeify.js"]
+    }
+  ]
+}
